@@ -1,7 +1,7 @@
 import React from "react";
 export default function HeaderTitle() {
   return (
-    <div>
+    <div className="card">
       <h1>TO-DO-LIST</h1>
     </div>
   );

@@ -1,12 +1,14 @@
 import React from "react";
 import HeaderTitle from "./components/HeaderTitle";
+import Form from "./components/Form";
 
 import "./App.css";
 
 function App() {
   return (
-    <div className="App-header">
+    <div className="background">
       <HeaderTitle />
+      <Form />
     </div>
   );
 }
